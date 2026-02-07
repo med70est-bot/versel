@@ -1,0 +1,12 @@
+{
+  "name": "green-net-backend",
+  "version": "1.0.0",
+  "description": "Backend para panel administrativo Green Net",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}
