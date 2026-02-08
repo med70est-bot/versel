@@ -1,12 +1,8 @@
 {
-  "functions": {
-    "api/appwrite-proxy.js": {
-      "memory": 1024,
-      "maxDuration": 10
-    }
-  },
   "rewrites": [
-    { "source": "/api/appwrite-proxy", "destination": "/api/appwrite-proxy.js" },
-    { "source": "/api/appwrite-proxy/", "destination": "/api/appwrite-proxy.js" }
+    { 
+      "source": "/api/(.*)", 
+      "destination": "/api/appwrite-proxy" 
+    }
   ]
 }
